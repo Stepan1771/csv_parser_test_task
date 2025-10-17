@@ -1,0 +1,18 @@
+[project]
+name = "csv-parser"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Stepan Karpov",email = "stepan-karpov-2025@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "tabulate (>=0.9.0,<0.10.0)",
+    "argparse (>=1.4.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
