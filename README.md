@@ -16,11 +16,13 @@
 
 ### Запуск скрипта:
 
-```poetry run python main.py --files products1.csv products2.csv --report average-rating```
+```pip install -r requirements.txt```
+
+```python main.py --files products1.csv products2.csv --report average-rating```
 
 
 ### Тестирование:
 
-```poetry run python -m unittest```
+```python -m unittest```
 
 
