@@ -16,11 +16,11 @@
 
 ### Запуск скрипта:
 
-```python main.py --files products1.csv products2.csv --report average-rating```
+```poetry run python main.py --files products1.csv products2.csv --report average-rating```
 
 
 ### Тестирование:
 
-```python -m unittest```
+```poetry run python -m unittest```
 
 
